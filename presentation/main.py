@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from business_logic.booking import Booking
 from business_logic.payment import Visa, Cash
 from business_logic.report import FactoryReport
